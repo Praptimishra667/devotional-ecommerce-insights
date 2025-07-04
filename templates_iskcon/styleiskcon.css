@@ -1,0 +1,132 @@
+
+    :root {
+      --primary-color: #6a1b9a;
+      --accent-color: #ff6f00;
+      --bg-light: #fff8e1;
+      --bg-dark: #222;
+      --text-light: #fff;
+      --text-dark: #333;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      transition: background-color 0.5s, color 0.5s;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    .dark-mode {
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+    }
+    .product-card {
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      animation: zoomIn 0.5s;
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.95); opacity: 0.5; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    .product-card img {
+      height: 180px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 8px;
+    }
+    .header-gradient {
+      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+      color: white;
+    }
+    .toast-container {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 1055;
+    }
+
+    .dark-mode .product-card { background-color: #333; color: #f1f1f1; }
+    .dark-mode .form-control,
+    .dark-mode .form-select {
+      background-color: #444;
+      color: #fff;
+      border: 1px solid #666;
+    }
+    .dark-mode .form-control::placeholder,
+    .dark-mode .form-select option {
+      color: #ccc;
+    }
+    .dark-mode .nav-tabs .nav-link {
+      background-color: #444;
+      color: #fff;
+    }
+    .dark-mode .nav-tabs .nav-link.active {
+      background-color: var(--accent-color);
+      color: #fff;
+    }
+    .dark-mode .list-group-item {
+      background-color: #444;
+      color: #fff;
+      border-color: #555;
+    }
+    .dark-mode .btn-outline-primary {
+      color: #fff;
+      border-color: #fff;
+    }
+    .dark-mode .btn-outline-primary:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    .dark-mode .modal-content {
+      background-color: #222;
+      color: #fff;
+    }
+    .dark-mode footer {
+      background-color: #111;
+      color: #fff;
+    }
+
+    * {
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Sloka Box Styling */
+    #shlokaBox {
+      background: #fff8e1;
+      border-left: 5px solid var(--accent-color);
+      font-family: 'Georgia', serif;
+      font-size: 0.95rem;
+    }
+    .dark-mode #shlokaBox {
+      background: #2b2b2b;
+      color: #fff;
+    }
+
+    .flower {
+  position: fixed;
+  top: -50px;
+  width: 30px;
+  height: 30px;
+  background-image: url('https://pngimg.com/uploads/flower/flower_PNG102104.png');
+  background-size: cover;
+  pointer-events: none;
+  z-index: 9999;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}

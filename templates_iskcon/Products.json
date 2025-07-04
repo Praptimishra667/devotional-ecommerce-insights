@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Tulsi Mala",
+    "desc": "Sacred tulsi beads.",
+    "price": 120,
+    "category": "Accessories",
+    "img": "https://tse4.mm.bing.net/th/id/OIP.AIMlqnMpvFra3__8wrIDngHaJ4?pid=Api&P=0&h=180",
+    "rating": 4
+  },
+  {
+    "name": "Ghee Lamp",
+    "desc": "Traditional ghee lamp.",
+    "price": 80,
+    "category": "Ritual",
+    "img": "https://thumbs.dreamstime.com/b/glowing-earthen-ghee-lamp-dark-diyas-diwali-deepawali-lined-up-preparation-celebration-festival-lights-306774797.jpg",
+    "rating": 5
+  },
+  {
+    "name": "Bhagavatam Set",
+    "desc": "Complete Srimad Bhagavatam.",
+    "price": 2500,
+    "category": "Books",
+    "img": "https://www.touchstonemedia.com/cdn/shop/products/original-srimad-bhagavatam-set-pre-1978-10-volumes-philosophy-201.jpg?v=1647437417&width=522",
+    "rating": 5
+  },
+  {
+    "name": "Tilak Pack",
+    "desc": "Natural tilak powder.",
+    "price": 60,
+    "category": "Ritual",
+    "img": "https://m.media-amazon.com/images/I/31GtrCGENmL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "rating": 4
+  },
+  {
+    "name": "Mahaprasadam Laddu",
+    "desc": "Sweet offered to Krishna.",
+    "price": 50,
+    "category": "Mahaprasadam",
+    "img": "https://tse3.mm.bing.net/th/id/OIP.2VYCgs_q9JU6LxIZTf9udAHaEB?pid=Api&P=0&h=180",
+    "rating": 5
+  },
+  {
+    "name": "Jagannath Rice",
+    "desc": "Blessed rice from temple.",
+    "price": 40,
+    "category": "Mahaprasadam",
+    "img": "https://tse2.mm.bing.net/th/id/OIP.KLFgnE02QLpPF8VI8MksxAHaJU?pid=Api&P=0&h=180",
+    "rating": 4
+  }
+]
