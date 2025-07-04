@@ -43,6 +43,10 @@ Welcome to the ISKCON Divine Cart data analytics and guesstimation case study. T
 
 📽️ Here is a demo review of the above.
 
+
+https://github.com/user-attachments/assets/de8aedbf-a8c9-4169-b3d9-ce37308b5086
+
+
 ---
 
 ### ✨ Made with love by **Prapti Mishra**  
